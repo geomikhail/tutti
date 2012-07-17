@@ -1,0 +1,284 @@
+@media screen and (max-width: 980px) {
+
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	.pagewidth {
+		max-width: 94%;
+	}
+		
+	/* content */
+	#content {
+		margin: 7% 0 5%;
+	}
+	.sidebar1 #content {
+		max-width: 67.8%;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		margin: 7% 0 5%;
+		max-width: 26.2%;
+	}
+	#sidebar .secondary {
+		max-width: 47%;
+	}
+	
+	/* loops-wrapper */
+	.loops-wrapper {
+		max-width: 105%;
+	}
+	
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2,
+	.col4-3,
+	.col3-1,
+	.col3-2,
+	.col2-1
+	{
+		margin-left: 2%;
+	}
+	.col4-1 {
+		max-width: 23%;
+	}
+	.col4-2, .col2-1 {
+		max-width: 48%;
+	}
+	.col4-3 {
+		max-width: 72%;
+	}
+	.col3-1 {
+		max-width: 31%;
+	}
+	.col3-2 {
+		max-width: 62%;
+	}
+	
+}
+
+@media screen and (max-width: 760px) {
+
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	.sidebar1 #content {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+	}
+	#sidebar .secondary {
+		width: 48%;
+	}
+	
+	/************************************************************************************
+	HEADER
+	*************************************************************************************/
+	/* reset absolute elements to static */
+	#header .social-widget, #site-logo, #site-description, #header #searchform, #main-nav  {
+		position: static;
+		float: none;
+		clear: both;
+	}
+	
+	/* header */
+	#header {
+		height: auto;
+	}
+	
+	/* header widget */
+	.header-widget {
+		position: static;
+		float: none;
+		text-align: left;
+		clear: both;
+		margin: 0;
+	}
+	.header-widget .widget {
+		margin: 0 0 10px;
+	}
+	
+	/* social widget */
+	#header .social-widget {
+		padding: 5px 0 0;
+	}
+
+	/* search form */
+	#header #searchform {
+		position: absolute;
+		top: 10px;
+		left: inherit;
+		right: 0;
+		width: 150px;
+	}
+	#header #searchform #s {
+		float: right;
+		width: 50px;
+	}
+	#header #searchform input#s:focus {
+		width: 150px;
+	}
+	
+	/* site logo */
+	#site-logo {
+		margin: 15px 100px 10px 0;
+	}
+	#site-logo a {
+		font-size: 30px;
+	}
+
+	/* site description */
+	#site-description {
+		margin: 0 0 10px;
+	}
+	
+	/* nav bar */
+	#nav-bar {
+		display: none;
+	}
+
+	/************************************************************************************
+	MAIN NAV
+	*************************************************************************************/
+	#main-nav {
+		height: auto;
+		margin: 10px 0;
+	}
+	#main-nav a {
+		padding: 4px 9px;
+	}
+
+	/************************************************************************************
+	LOOPS WRAPPER
+	*************************************************************************************/
+	.list-post .loops-wrapper {
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2, .col2-1,
+	.col4-3,
+	.col3-1,
+	.col3-2	 {
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	/************************************************************************************
+	HEADER
+	*************************************************************************************/
+	/* site logo */
+	#site-logo {
+		font-size: 42px;
+		text-align: left;
+		padding: 0 90px 0 0;
+		width: auto;
+		margin: 10px 0;
+	}
+	
+	/* site description */
+	#site-description {
+		text-align: left;
+		margin: 0 0 10px;
+	}
+	
+	/* searchform */
+	#header #searchform {
+		left: inherit;
+		right: 0;
+		width: 150px;
+	}
+	#header #searchform #s {
+		float: right;
+	}
+	
+	/* social widget */
+	.social-widget {
+		position: static;
+		margin: 10px 0;
+		float: none;
+		padding: 0;
+	}
+
+	/************************************************************************************
+	LAYOUTS
+	*************************************************************************************/
+	/* loops-wrapper */
+	.loops-wrapper {
+		margin-left: 0 !important;
+		width: auto !important;
+	}
+
+	/* post */
+	.post {
+		width: 100% !important;
+		margin-left: 0 !important;
+		float: none;
+	}
+	
+	/************************************************************************************
+	POST NAV
+	*************************************************************************************/
+	.post-nav .prev, .post-nav .next {
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 10px;
+	}
+	
+	/************************************************************************************
+	COMMENTS
+	*************************************************************************************/
+	.commentlist {
+		padding-left: 0;
+	}
+	.commentlist .commententry {
+		clear: left;
+	}
+	.commentlist .avatar {
+		float: left;
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 10px 0;
+	}
+
+	/* commentlist sub-levels */
+	.commentlist ul, .commentlist ol {
+		margin: 0 0 0 7%;
+	}
+
+	/************************************************************************************
+	FOOTER
+	*************************************************************************************/
+	#footer-logo {
+		position: static;
+	}
+	.footer-nav {
+		padding: 0;
+	}
+
+}

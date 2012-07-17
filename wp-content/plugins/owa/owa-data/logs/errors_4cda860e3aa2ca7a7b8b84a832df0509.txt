@@ -1,0 +1,72 @@
+07:02:12 07/16/12 32190 [alert] Could not connect to database.
+07:02:12 07/16/12 32190 [alert] Could not connect to database.
+07:02:22 07/16/12 31231 [alert] Could not connect to database.
+07:02:22 07/16/12 31231 [alert] Could not connect to database.
+07:02:23 07/16/12 1525 [alert] Could not connect to database.
+07:02:23 07/16/12 1525 [alert] Could not connect to database.
+07:02:23 07/16/12 1237 [alert] Could not connect to database.
+07:02:26 07/16/12 1239 [alert] Could not connect to database.
+07:02:26 07/16/12 1220 [alert] Could not connect to database.
+07:02:26 07/16/12 1220 [alert] Could not connect to database.
+07:02:26 07/16/12 648 [alert] Could not connect to database.
+07:02:26 07/16/12 648 [alert] Could not connect to database.
+07:02:30 07/16/12 1404 [alert] Could not connect to database.
+07:02:30 07/16/12 1404 [alert] Could not connect to database.
+07:02:30 07/16/12 1837 [alert] Could not connect to database.
+07:02:30 07/16/12 1837 [alert] Could not connect to database.
+07:02:30 07/16/12 1526 [alert] Could not connect to database.
+07:02:34 07/16/12 30121 [alert] Could not connect to database.
+07:02:34 07/16/12 30121 [alert] Could not connect to database.
+07:02:34 07/16/12 312 [alert] Could not connect to database.
+07:02:34 07/16/12 312 [alert] Could not connect to database.
+07:02:36 07/16/12 1391 [alert] Could not connect to database.
+07:02:36 07/16/12 1391 [alert] Could not connect to database.
+07:02:36 07/16/12 32357 [alert] Could not connect to database.
+07:02:36 07/16/12 32357 [alert] Could not connect to database.
+07:02:42 07/16/12 2120 [alert] Could not connect to database.
+07:02:42 07/16/12 2120 [alert] Could not connect to database.
+07:02:42 07/16/12 2122 [alert] Could not connect to database.
+07:02:42 07/16/12 2122 [alert] Could not connect to database.
+07:02:42 07/16/12 2123 [alert] Could not connect to database.
+07:02:53 07/16/12 1445 [alert] Could not connect to database.
+07:02:53 07/16/12 704 [alert] Could not connect to database.
+07:02:53 07/16/12 704 [alert] Could not connect to database.
+07:04:42 07/16/12 2604 [alert] Could not connect to database.
+07:04:42 07/16/12 2604 [alert] Could not connect to database.
+07:04:42 07/16/12 2792 [alert] Could not connect to database.
+07:04:42 07/16/12 2792 [alert] Could not connect to database.
+07:04:42 07/16/12 1443 [alert] Could not connect to database.
+07:42:35 07/16/12 14865 [notice] starting Embedded install
+07:42:35 07/16/12 14865 [error] Your config file already exists. If you need to change your configuration, edit that file at: /home/u196217935/public_html/wp-content/plugins/owa/owa-config.php
+07:42:35 07/16/12 14865 [notice] Starting installation of module: base
+07:42:35 07/16/12 14865 [notice] owa_request Table Created.
+07:42:35 07/16/12 14865 [notice] owa_session Table Created.
+07:42:35 07/16/12 14865 [notice] owa_document Table Created.
+07:42:35 07/16/12 14865 [notice] owa_feed_request Table Created.
+07:42:35 07/16/12 14865 [notice] owa_click Table Created.
+07:42:35 07/16/12 14865 [notice] owa_ua Table Created.
+07:42:35 07/16/12 14865 [notice] owa_referer Table Created.
+07:42:35 07/16/12 14865 [notice] owa_site Table Created.
+07:42:35 07/16/12 14865 [notice] owa_visitor Table Created.
+07:42:35 07/16/12 14865 [notice] owa_host Table Created.
+07:42:35 07/16/12 14865 [notice] owa_exit Table Created.
+07:42:35 07/16/12 14865 [notice] owa_os Table Created.
+07:42:35 07/16/12 14865 [notice] owa_impression Table Created.
+07:42:35 07/16/12 14865 [notice] owa_configuration Table Created.
+07:42:35 07/16/12 14865 [notice] owa_user Table Created.
+07:42:35 07/16/12 14865 [notice] owa_domstream Table Created.
+07:42:35 07/16/12 14865 [notice] owa_action_fact Table Created.
+07:42:35 07/16/12 14865 [notice] owa_search_term_dim Table Created.
+07:42:35 07/16/12 14865 [notice] owa_ad_dim Table Created.
+07:42:35 07/16/12 14865 [notice] owa_source_dim Table Created.
+07:42:35 07/16/12 14865 [notice] owa_campaign_dim Table Created.
+07:42:35 07/16/12 14865 [notice] owa_location_dim Table Created.
+07:42:35 07/16/12 14865 [notice] owa_commerce_transaction_fact Table Created.
+07:42:35 07/16/12 14865 [notice] owa_commerce_line_item_fact Table Created.
+07:42:35 07/16/12 14865 [notice] owa_queue_item Table Created.
+07:42:35 07/16/12 14865 [notice] Post install proceadure was a success.
+07:42:35 07/16/12 14865 [notice] Module base activated
+07:42:35 07/16/12 14865 [notice] Installation complete.
+07:42:35 07/16/12 14865 [notice] Checking for existence of default site.
+07:42:35 07/16/12 14865 [notice] Default site already exists (id = 535131961). nothing to do here.
+07:42:35 07/16/12 14865 [notice] Install Complete Flag added to configuration

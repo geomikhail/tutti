@@ -1,0 +1,17 @@
+/*  
+Skin Name: Розовый
+Version: 1.0
+Description: Skin for Grido
+*/
+
+
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	border-color: #eb67a8;
+}
+
+/* post date and post icon */
+.post-date, .post-icon {
+	background-color: #eb67a8;
+}
+

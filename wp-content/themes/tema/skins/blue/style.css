@@ -1,0 +1,17 @@
+/*  
+Skin Name: Синий
+Version: 1.0
+Description: Skin for Grido
+*/
+
+
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	border-color: #47bce9;
+}
+
+/* post date and post icon */
+.post-date, .post-icon {
+	background-color: #47bce9;
+}
+

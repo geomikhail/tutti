@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<folders>
+		<images src="uploads/" />
+	</folders>
+	
+	<panel title="Settings">
+		
+		<tab title="Общие">
+			
+			<custom-module title="Фавиконка" function="favicon" target="uploads/favicon/" />
+			<custom-module title="Пользовательский RSS поток" function="custom_feed_url" />
+			<custom-module title="Код в заголовке" function="header_html" />
+			<custom-module title="Код в подвале" function="footer_html" />
+			<custom-module title="Параметры поиска" function="search_settings" />
+			<custom-module title="Параметры RSS потока" function="feed_settings" />
+				
+		</tab>
+		
+		<tab title="Параметры Темы">
+			
+			<custom-module title="Сценарий изображения (img.php) Настройки" function="img_settings" />
+			<custom-module title="Параметры коротких кодов" function="shortcode_settings" />
+			<custom-module title="Индексный Макет по умолчанию (архив, категории, поиск, метки страниц и т.д.)" function="default_layout" />
+			<custom-module title="Макет записи по умолчанию  (единое представление записи)" function="default_post_layout" />
+			<custom-module title="Статический Макет страницы по умолчанию" function="default_page_layout" />
+			<custom-module title="Виджеты в подвале" function="footer_widgets" />
+			<custom-module title="Левый текст в подвале" function="footer_text_left" />
+			<custom-module title="Правый текст в подвале" function="footer_text_right" />
+			<custom-module title="Исключить RSS Ссылку" function="exclude_rss" />
+			<custom-module title="Исключить Форму Поиска" function="exclude_search_form" />
+		
+		</tab>
+		
+		
+	</panel>
+	
+	<panel title="Styling">
+	
+		<tab title="Фоны">
+			
+			<element title="Главный фон" selector="body">
+				<module name="image-preview" src="uploads/bg/" />
+				<module name="background-image" target="uploads/bg/" />
+				<module name="background-color" />
+				<module name="background-repeat" />
+				<module name="background-position" />
+			</element>
+
+			<element title="Фон верхней навигации" selector="#nav-bar">
+				<module name="image-preview" src="uploads/bg/" />
+				<module name="background-image" target="uploads/bg/" />
+				<module name="background-color" />
+				<module name="background-repeat" />
+				<module name="background-position" />
+				<module name="divider" />
+				<module name="border" />
+			</element>
+
+			<element title="Фон блока записи" selector=".post-inner">
+				<module name="image-preview" src="uploads/bg/" />
+				<module name="background-image" target="uploads/bg/" />
+				<module name="background-color" />
+				<module name="background-repeat" />
+				<module name="background-position" />
+				<module name="divider" />
+				<module name="border" />
+			</element>
+
+			<element title="Фон подвала" selector="#footerwrap">
+				<module name="image-preview" src="uploads/bg/" />
+				<module name="background-image" target="uploads/bg/" />
+				<module name="background-color" />
+				<module name="background-repeat" />
+				<module name="background-position" />
+			</element>
+
+		</tab>
+
+		<tab title="Главный шрифт">
+
+			<element title="Стили главного шрифта" selector="body">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="line-height" />
+			</element>
+			
+			<element title="Шрифт: ссылка" selector="a">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+			
+			<element title="Шрифт: смена" selector="body a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+							
+		</tab>
+
+		<tab title="Заголовки">
+
+			<element title="Заголовок 1 (h1)" selector="h1">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок 2 (h2)" selector="h2">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок 3 (h3)" selector="h3">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок 4 (h4)" selector="h4">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок 5 (h5)" selector="h5">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок 6 (h6)" selector="h6">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+						
+		</tab>
+
+		<tab title="Элементы формы">
+
+			<element title="Поля формы (ввод, текстовая область, и т.д.)" selector="input[type=text], input[type=search], input[type=password], textarea">
+				<module name="background-color" />
+				<module name="border" />
+				<module name="padding" />
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+			</element>
+
+			<element title="Поля формы: фокус" selector="textarea:focus, input[type=password]:focus, input[type=text]:focus, input[type=search]:focus">
+				<module name="background-color" />
+				<module name="border" />
+				<module name="color" />
+			</element>
+
+			<element title="Кнопка формы" selector="input[type=reset], input[type=submit]">
+				<module name="background-color" />
+				<module name="border" />
+				<module name="color" />
+			</element>
+
+			<element title="Кнопка формы: смена" selector="input[type=reset]:hover, input[type=submit]:hover">
+				<module name="background-color" />
+				<module name="border" />
+				<module name="color" />
+			</element>
+							
+		</tab>
+
+		<tab title="Заголовок">
+			
+			<element title="Заголовок" selector="#header">
+				<module name="image-preview" src="uploads/bg/header/" />
+				<module name="background-image" target="uploads/bg/header/" />
+				<module name="background-color" />
+				<module name="background-repeat" />
+				<module name="background-position" />
+				<module name="divider" />
+				<module name="color" />
+				<module name="height" />
+				<module name="border" />
+			</element>
+
+			<element title="Заголовок: ссылка" selector="#header a">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок: смена" selector="#header a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+						
+		</tab>
+
+		<tab title="Логотип сайта">
+
+			<element title="Позиция Логотипа сайта" selector="#site-logo">
+				<module name="position" />
+			</element>
+
+			<element title="Логотип сайта" selector="#site-logo a">
+				<module name="site_logo" target="uploads/logo/" />
+				<module name="divider" />
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Логотип сайта: смена" selector="#site-logo a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+
+		</tab>		
+
+		<tab title="Описание сайта">
+
+			<element title="Описание сайта" selector="#site-description">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="text-transform" />
+				<module name="divider" />
+				<module name="position" />
+			</element>
+
+		</tab>		
+
+		<tab title="Ссылки меню">
+
+			<element title="Основная Позиция Навигации" selector="#main-nav">
+				<module name="position" />
+			</element>
+
+			<element title="Основная Навигация: ссылка" selector="#main-nav li a">
+				<module name="font-family" />
+				<module name="font-size" />
+				<module name="color" />
+				<module name="text-decoration" />
+				<module name="text-transform" />
+				<module name="divider" />
+				<module name="padding" />
+				<module name="background-color" />
+			</element>
+
+			<element title="Основная Навигация: смена" selector="#main-nav li a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+				<module name="background-color" />
+			</element>
+
+			<element title="Основная Активная Навигация (текущая)" selector="#main-nav .current_page_item a, #main-nav .current-menu-item a">
+				<module name="color" />
+				<module name="background-color" />
+			</element>
+
+			<element title="Выпадающее" selector="#main-nav ul">
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="border" />
+			</element>
+
+			<element title="Выпадающее: ссылка" selector="#main-nav ul a, #main-nav .current_page_item ul a, #main-nav ul .current_page_item a, #main-nav .current-menu-item ul a, #main-nav ul .current-menu-item a">
+				<module name="font-family" />
+				<module name="font-size" />
+				<module name="color" />
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="border" />
+			</element>
+			
+			<element title="Выпадающее: смена" selector="#main-nav ul a:hover, #main-nav .current_page_item ul a:hover, #main-nav ul .current_page_item a:hover, #main-nav .current-menu-item ul a:hover, #main-nav ul .current-menu-item a:hover">
+				<module name="color" />
+				<module name="background-color" />
+			</element>
+
+		</tab>
+
+		<tab title="Заголовок записи">
+
+			<element title="Стили Шрифта Заголовка Записи" selector=".post-title">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+			
+			<element title="Заголовок записи: ссылка" selector=".post-title a">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+			
+			<element title="Заголовок записи: смена" selector=".post a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+				
+		</tab>
+
+		<tab title="Заголовок страницы">
+
+			<element title="Стили Шрифта Заголовка Страницы" selector=".page-title">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+			</element>
+							
+		</tab>
+
+		<tab title="Мета записи">
+
+			<element title="Текст Мета Записи" selector=".post-meta, .post-meta em">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+			</element>
+						
+			<element title="Мета Записи: ссылка" selector=".post-meta a">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Мета Записи: смена" selector=".post-meta a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Дата Записи" selector=".post-date">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+			</element>
+
+			<element title="Ссылка Больше" selector=".more-link">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="divider" />
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="margin" />
+				<module name="border" />
+			</element>
+
+			<element title="Ссылка Больше: смена" selector=".more-link:hover">
+				<module name="color" />
+				<module name="background-color" />
+			</element>
+							
+		</tab>
+
+		<tab title="Навигация записи">
+
+			<element title="Навигация записи (след/пред записи)" selector=".post-nav">
+				<module name="border" />
+			</element>
+
+			<element title="Заголовок записи: ссылка" selector=".post-nav a">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="line-height" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Заголовок записи: смена" selector=".post-nav a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+		
+		</tab>
+
+		<tab title="Боковая панель">
+
+			<element title="Стили шрифтов боковой панели" selector="#sidebar">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="line-height" />
+			</element>
+
+			<element title="Боковая панель: ссылка" selector="#sidebar a">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+			
+			<element title="Боковая панель: смена" selector="#sidebar a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Виджеты в Боковой Панели" selector="#sidebar .widget">
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="margin" />
+				<module name="border" />
+			</element>
+
+			<element title="Заголовок Виджета в Боковой Панели" selector="#sidebar .widgettitle">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+				<module name="divider" />
+				<module name="border" />
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="margin" />
+			</element>
+
+			<element title="Элемент Списка Боковой Панели" selector="#sidebar .widget li ">
+				<module name="background-color" />
+				<module name="margin" />
+				<module name="padding" />
+				<module name="border" />
+			</element>
+			
+		</tab>
+		
+		<tab title="Подвал">
+
+			<element title="Фон Подвала" selector="#footerwrap">
+				<module name="image-preview" src="uploads/footer/" />
+				<module name="background-image" target="uploads/footer/" />
+				<module name="background-color" />
+				<module name="background-repeat" />
+				<module name="background-position" />
+			</element>
+		
+			<element title="Подвал" selector="#footer">
+				<module name="border" />
+				<module name="padding" />
+				<module name="margin" />
+			</element>
+			
+			<element title="Стили шрифтов подвала" selector="#footer">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="line-height" />
+			</element>
+			
+			<element title="Подвал: ссылка" selector="#footer a">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+			
+			<element title="Подвал: смена" selector="#footer a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+		
+			<element title="Виджеты в подвале" selector="#footer .widget">
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="margin" />
+				<module name="border" />
+			</element>
+
+			<element title="Заголовок виджета в подвале" selector="#footer .widgettitle">
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="line-height" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+				<module name="divider" />
+				<module name="border" />
+				<module name="background-color" />
+				<module name="padding" />
+				<module name="margin" />
+			</element>
+
+			<element title="Элемент Списка Подвала" selector="#footer .widget li ">
+				<module name="background-color" />
+				<module name="margin" />
+				<module name="padding" />
+				<module name="border" />
+			</element>
+			
+		</tab>
+
+		<tab title="Логотип Подвала">
+
+			<element title="Логотип Подвала" selector="#footer-logo a">
+				<module name="footer_logo" target="uploads/logo/" />
+				<module name="divider" />
+				<module name="font-family" />
+				<module name="color" />
+				<module name="font-size" />
+				<module name="font-weight" />
+				<module name="font-style" />
+				<module name="font-variant" />
+				<module name="text-transform" />
+				<module name="text-decoration" />
+			</element>
+
+			<element title="Логотип Подвала: смена" selector="#footer-logo a:hover">
+				<module name="color" />
+				<module name="text-decoration" />
+			</element>
+
+		</tab>		
+
+		<tab title="Пользовательский CSS">
+			
+			<element title="Пользовательский CSS" selector="html">
+				<module name="custom_css" />
+			</element>
+			
+		</tab>
+
+	</panel>
+
+</config>

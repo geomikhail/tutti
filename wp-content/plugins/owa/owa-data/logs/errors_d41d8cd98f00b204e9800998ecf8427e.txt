@@ -1,0 +1,33 @@
+06:56:52 07/16/12 31133 [notice] starting Embedded install
+06:56:52 07/16/12 31133 [notice] Starting installation of module: base
+06:56:52 07/16/12 31133 [notice] owa_request Table Created.
+06:56:52 07/16/12 31133 [notice] owa_session Table Created.
+06:56:52 07/16/12 31133 [notice] owa_document Table Created.
+06:56:52 07/16/12 31133 [notice] owa_feed_request Table Created.
+06:56:52 07/16/12 31133 [notice] owa_click Table Created.
+06:56:52 07/16/12 31133 [notice] owa_ua Table Created.
+06:56:52 07/16/12 31133 [notice] owa_referer Table Created.
+06:56:52 07/16/12 31133 [notice] owa_site Table Created.
+06:56:52 07/16/12 31133 [notice] owa_visitor Table Created.
+06:56:52 07/16/12 31133 [notice] owa_host Table Created.
+06:56:52 07/16/12 31133 [notice] owa_exit Table Created.
+06:56:52 07/16/12 31133 [notice] owa_os Table Created.
+06:56:52 07/16/12 31133 [notice] owa_impression Table Created.
+06:56:52 07/16/12 31133 [notice] owa_configuration Table Created.
+06:56:52 07/16/12 31133 [notice] owa_user Table Created.
+06:56:52 07/16/12 31133 [notice] owa_domstream Table Created.
+06:56:52 07/16/12 31133 [notice] owa_action_fact Table Created.
+06:56:52 07/16/12 31133 [notice] owa_search_term_dim Table Created.
+06:56:52 07/16/12 31133 [notice] owa_ad_dim Table Created.
+06:56:52 07/16/12 31133 [notice] owa_source_dim Table Created.
+06:56:52 07/16/12 31133 [notice] owa_campaign_dim Table Created.
+06:56:52 07/16/12 31133 [notice] owa_location_dim Table Created.
+06:56:52 07/16/12 31133 [notice] owa_commerce_transaction_fact Table Created.
+06:56:52 07/16/12 31133 [notice] owa_commerce_line_item_fact Table Created.
+06:56:52 07/16/12 31133 [notice] owa_queue_item Table Created.
+06:56:52 07/16/12 31133 [notice] Post install proceadure was a success.
+06:56:52 07/16/12 31133 [notice] Module base activated
+06:56:52 07/16/12 31133 [notice] Installation complete.
+06:56:52 07/16/12 31133 [notice] Checking for existence of default site.
+06:56:52 07/16/12 31133 [notice] Created default site.
+06:56:52 07/16/12 31133 [notice] Install Complete Flag added to configuration
